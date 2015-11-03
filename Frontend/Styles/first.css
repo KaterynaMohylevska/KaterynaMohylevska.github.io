@@ -1,0 +1,18 @@
+body, html {
+  font-size: 24px;
+  color: red;
+}
+
+h1 {
+  color: blue !important;
+}
+
+p{
+
+}
+header {
+  background: yellow;
+}
+a {
+  color: red;
+}
