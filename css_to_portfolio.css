@@ -50,6 +50,7 @@ body{
 .main-navigation{
   float:right;
   height: 60px;
+  position: relative;
 }
 .main-navigation ul{
   margin: 0;
@@ -102,6 +103,10 @@ h1{
   margin-bottom: 40px;
   text-align: center;
 }
+.sub-text img {
+  margin: 10px 0;
+}
+
 .logo{
   padding: 0;
 }
@@ -154,10 +159,78 @@ h3{
 .title h1 {
   display: inline;
   margin: 0 50px;
+
+  font-size: 65px;
+  line-height: 65px;
+  vertical-align: bottom;
 }
 .left-camomile, .right-camomile {
   vertical-align: middle;
 }
 .networks-2{
   padding: 50px 0 0 0;
+}
+
+
+
+/* Popup for telephone and email */
+.overlay {
+  /*position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);*/
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-target{
+  position: relative;
+}
+
+.popup {
+  padding: 15px;
+  background: #fff;
+  border-radius: 5px;
+  width: 320px;
+  position: absolute;
+  transition: all 5s ease-in-out;
+
+  line-height: 1;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'SCRIPTBL';
+}
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #ff33ff;
+}
+.popup .content {
+  overflow: auto;
+  line-height: 1.2;
+}
+
+#contactByTelephone .popup {
+  right: 20px;
+}
+#contactByEmail .popup {
+  right: 80px;
 }
