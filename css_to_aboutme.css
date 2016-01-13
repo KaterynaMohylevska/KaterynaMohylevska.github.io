@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Harrington;
+    src: url(fonts/harrington.ttf);
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background: url("https://pp.vk.me/c608720/v608720336/8c69/ypU_cU4hUmE.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.group::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-header{
+  margin: 30px 0 0 0;
+  padding: 10px 50px;
+  background: rgba(110, 0, 110, 0.6);
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+
+.logotype{
+  display: block;
+  float:left;
+  color: black;
+}
+.facebook {
+  position: relative;
+  top: 14px;
+}
+.main-navigation{
+  float:right;
+  height: 60px;
+}
+.main-navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation ul li{
+  display: inline-block;
+}
+
+
+.main-navigation ul li:after{
+  content: "|";
+  padding: 10px;
+  color: #fff;
+}
+
+.main-navigation ul li:last-child:after{
+  content: "";
+}
+.main-navigation ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section{
+  font-family: Harrington;
+
+}
+h1{
+  text-align: center;
+}
+.main-text{
+  margin: 200px;
+  padding: 40px 40px 400px 40px;
+  background-color: #fff;
+  background: rgba(250, 250, 250, 0.8);
+  vertical-align: baseline;
+}
+h2{
+
+}
+.cs-logo{
+  float:right;
+}
+img{
+  padding: 20px 0 0 0;
+}
+.logo{
+  padding: 0;
+}
+h3{
+  text-align: center;
+}
