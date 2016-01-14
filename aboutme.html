@@ -17,10 +17,34 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#">About me</a></li>
             <li class="networks"><a target="_blank" href="https://www.facebook.com/kate.mogilevskaya.5"><img src="picture/facebook.png" width="40"></a></li>
-            <li class="networks"><a target="_blank" href="mailto:mohylevska@ucu.edu.ua"><img src="picture/gmail.png" width="40"></a></li>
-            <li class="networks"><a target="_blank" onclick="alert('call me 098434432424');"><img src="picture/phone.png" width="40"></a></li>
+            <li class="networks"><a  class="popup-target" href="#contactByEmail" ><img src="picture/gmail.png" width="40"></a></li>
+            <li class="networks"><a  class="popup-target" href="#contactByTelephone" ><img src="picture/phone.png" width="40"></a></li>
           </ul>
+
+          <div id="contactByEmail" class="overlay">
+            <div class="popup">
+              <h2>Email me</h2>
+              <a class="close" href="#">&times;</a>
+
+              <div class="content">
+                I'll be happy to get emails from you, write to <a href="mailto:mohylevska@ucu.edu.ua">mohylevska@ucu.edu.ua</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="contactByTelephone" class="overlay">
+            <div class="popup">
+              <h2>Call me</h2>
+              <a class="close" href="#">&times;</a>
+
+              <div class="content">
+                You can reach me by phone number <a href="tel:+3809765534543">+3809765534543</a>
+              </div>
+            </div>
+          </div>
         </nav>
+
+
     </header>
 
     <section>
