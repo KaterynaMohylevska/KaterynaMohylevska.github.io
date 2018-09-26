@@ -2,9 +2,6 @@
     font-family: Harrington;
     src: url(fonts/harrington.ttf);
 }
-*{
-  box-sizing: border-box;
-}
 body{
   background: url("https://pp.vk.me/c608720/v608720336/8c69/ypU_cU4hUmE.jpg");
   background-repeat: no-repeat;
